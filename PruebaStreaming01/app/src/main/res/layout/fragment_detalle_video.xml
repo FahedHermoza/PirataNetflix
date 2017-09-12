@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecundary"
+    tools:context="com.devart.fahed.developer.pruebastreaming01.DetalleVideoActivityFragment"
+    tools:showIn="@layout/activity_detalle_video">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/padding_base_detalleVideo">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tamaño_alto_detalleVideo">
+
+                <ImageView
+                    android:id="@+id/ivBannerDetalleVideo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@mipmap/ejemplo_banner_detalle_video"/>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/scrim_banner"/>
+
+                <TextView
+                    android:id="@+id/tvTituloDetalleVideo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left|right"
+                    android:layout_marginBottom="@dimen/margin_titulo_detalleVideo"
+                    android:layout_marginLeft="@dimen/margin_titulo_detalleVideo"
+                    android:fontFamily="sans-serif-black"
+                    android:hint="@string/tv_titulo_detalle_video"
+                    android:textColor="@color/colorTextPrimary"
+                    android:textColorHint="@color/colorTextPrimary"
+                    android:textSize="@dimen/text_size_titulo_detalleVideo"
+                    android:textStyle="normal"/>
+
+                <ImageButton
+                    android:id="@+id/ibtnReproducirDetalleVideo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@mipmap/ic_play"
+                    app:srcCompat="@android:color/transparent"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tvInformacionDetalleVideo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_titulo_detalleVideo"
+                android:fontFamily="sans-serif-ligth"
+                android:hint="@string/tv_informacion_detalle_video"
+                android:paddingBottom="@dimen/margin_titulo_detalleVideo"
+                android:paddingTop="@dimen/margin_titulo_detalleVideo"
+                android:textColor="@color/colorTextSecundary"
+                android:textColorHint="@color/colorTextSecundary"
+                android:textSize="@dimen/text_size_informacion_detalleVideo"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/tvDescripcionDetalleVideo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_titulo_detalleVideo"
+                android:fontFamily="sans-serif-ligth"
+                android:hint="@string/tv_descipcion_detalle_video"
+                android:paddingBottom="@dimen/margin_titulo_detalleVideo"
+                android:paddingTop="@dimen/margin_titulo_detalleVideo"
+                android:textColor="@color/colorTextPrimary"
+                android:textColorHint="@color/colorTextPrimary"
+                android:textSize="@dimen/text_size_descripcion_detalleVideo"
+                android:textStyle="normal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_acciones_detalleVideo"
+                android:layout_marginRight="@dimen/margin_acciones_detalleVideo"
+                android:layout_marginTop="@dimen/margin_titulo_detalleVideo"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="@dimen/margin_acciones_detalleVideo">
+
+                    <ImageView
+                        android:id="@+id/ivMiListaDetalleVideo"
+                        android:layout_width="@dimen/tamaño_item_imagenView_detalleVideo"
+                        android:layout_height="@dimen/tamaño_item_imagenView_detalleVideo"
+                        app:srcCompat="@mipmap/ic_tick"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-ligth"
+                        android:text="@string/tv_miLista_detalle_video"
+                        android:textColor="@color/colorTextSecundary"
+                        android:textColorHint="@color/colorTextSecundary"
+                        android:textSize="@dimen/text_size_informacion_detalleVideo"
+                        android:textStyle="normal"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/margin_titulo_detalleVideo"
+                android:paddingTop="@dimen/margin_titulo_detalleVideo">
+
+                <Spinner
+                    android:id="@+id/spTemporadasDetalleVideo"
+                    style="@style/Widget.AppCompat.Spinner.DropDown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_titulo_detalleVideo"
+                    android:layout_marginLeft="@dimen/margin_titulo_detalleVideo"
+                    android:layout_marginTop="@dimen/margin_titulo_detalleVideo"
+                    android:backgroundTint="@color/colorAccent"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="@dimen/margin_titulo_detalleVideo"
+                    android:layout_marginTop="@dimen/margin_titulo_detalleVideo"
+                    android:background="@color/colorTextSecundary"
+                    android:orientation="horizontal"/>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/tamaño_image_view_itemTemporada"
+                    android:layout_marginTop="@dimen/margin_titulo_detalleVideo">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        >
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@mipmap/ejemplo_banner_temporada"/>
+                    </android.support.v7.widget.CardView>
+                </FrameLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rvDetalleTemporadas"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

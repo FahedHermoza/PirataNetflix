@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">PruebaStreaming01</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_categorias">Categorias</string>
+    <!-- Principal -->
+    <string name="titulo_principal">Inicio</string>
+    <string name="tv_creados_principal">Creados para ti</string>
+    <string name="btn_explorar_principal">EXPLORAR</string>
+    <string name="tv_recientes_principal">Subidos Recientemente</string>
+    <string name="tv_tendencias_principal">Tendencias</string>
+    <string name="tv_miLista_principal">Mi Lista</string>
+
+    <!-- Item-->
+    <string name="tv_titulo_item">Juego de Tronos</string>
+    <string name="tv_visualizaciones_item">0 VISUALIZACIONES</string>
+
+    <!-- Categorias -->
+    <string name="titulo_categoria">Explorar</string>
+    <string name="tv_titulo_categoria">Categoria</string>
+
+    <!-- Detallle Categorias -->
+    <string name="title_activity_detalle_categoria">Detalle Categoria</string>
+
+    <!-- DetalleVideo -->
+    <string name="title_activity_detalle_video">Detalle de Video</string>
+    <string name="tv_miLista_detalle_video">Mi Lista</string>
+    <!-- Hint DetalleVideo -->
+    <string name="tv_titulo_detalle_video">Juego de Tronos</string>
+    <string name="tv_informacion_detalle_video">2015 - Temporada 8 </string>
+    <string name="tv_descipcion_detalle_video">Juego de tronos es una serie de televisión estadounidense de fantasía medieval, drama y aventuras creada por David Benioff y D. B. Weiss para la cadena HBO.</string>
+    <string name="tv_año_detalle_video">Juego de Tronos</string>
+    <string name="tv_temporadas_detalle_video">8 temporadas</string>
+
+    <!-- Hint Temporadas DetalleVideo -->
+    <string name="tv_capitulo_item_temporada">1</string>
+    <string name="tv_titulo_item_temporada">El invierno se acerca</string>
+    <string name="tv_duracion_item_temporada">58 min</string>
+
+
+</resources>

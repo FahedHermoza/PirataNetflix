@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="@dimen/tamaño_alto_itemCategoria"
+                android:layout_height="@dimen/tamaño_ancho_itemCategoria"
+                android:padding="@dimen/margin_itemCategoria">
+
+    <ImageView
+        android:id="@+id/ivPortadaItemCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/ejemplo_portadas"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/scrim"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivIconoItemCategoria"
+            android:layout_width="@dimen/tamaño_ancho_icono_categoria"
+            android:layout_height="@dimen/tamaño_alto_icono_categoria"
+            app:srcCompat="@mipmap/terror_categoria"/>
+
+        <TextView
+            android:id="@+id/tvTituloItemCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-bold"
+            android:gravity="center"
+            android:hint="@string/tv_titulo_categoria"
+            android:textColor="@color/colorTextPrimary"
+            android:textColorHint="@color/colorTextPrimary"
+            android:textSize="@dimen/tamaño_texto_titulo_itemCategoria"
+            android:textStyle="normal"/>
+    </LinearLayout>
+</RelativeLayout>

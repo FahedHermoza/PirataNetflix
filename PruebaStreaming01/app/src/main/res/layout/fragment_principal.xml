@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecundary"
+    android:orientation="vertical"
+    tools:context="com.devart.fahed.developer.pruebastreaming01.PrincipalFragment"
+    tools:showIn="@layout/activity_principal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/padding_linear_layout_recycler_view"
+            >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tamaño_image_view_principal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/background_color_one"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="@string/tv_creados_principal"
+                        android:textColor="@color/colorTextPrimary"
+                        android:textSize="@dimen/tamaño_texto_titulo_principal"
+                        android:textStyle="normal"/>
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="@dimen/tamaño_ancho_button_explorar"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_top_button_explorar"
+                        android:background="@drawable/button_round"
+                        android:padding="@dimen/padding_button_explorar"
+                        android:text="@string/btn_explorar_principal"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/text_size_button_explorar"/>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tvRecientesPrincipal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tamaño_alto_banner"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif-bold"
+                android:gravity="center"
+                android:text="@string/tv_recientes_principal"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="@dimen/tamaño_texto_titulo_principal"
+                android:textStyle="normal"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvRecientes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"/>
+
+            <TextView
+                android:id="@+id/tvTendenciaPrincipal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tamaño_alto_banner"
+                android:fontFamily="sans-serif-bold"
+                android:gravity="center"
+                android:text="@string/tv_tendencias_principal"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="@dimen/tamaño_texto_titulo_principal"
+                android:textStyle="normal"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvTendencia"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"/>
+
+            <TextView
+                android:id="@+id/tvMiListaPrincipal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tamaño_alto_banner"
+                android:fontFamily="sans-serif-bold"
+                android:gravity="center"
+                android:text="@string/tv_miLista_principal"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="@dimen/tamaño_texto_titulo_principal"
+                android:textStyle="normal"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvMiLista"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

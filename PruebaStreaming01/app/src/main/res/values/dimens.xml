@@ -1,0 +1,58 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Principal -->
+    <dimen name="tamaño_alto_banner">50dp</dimen>
+    <dimen name="tamaño_image_view_principal">200dp</dimen>
+    <dimen name="tamaño_texto_titulo_principal">19sp</dimen>
+    <dimen name="padding_linear_layout_recycler_view">30dp</dimen>
+    <dimen name="tamaño_ancho_button_explorar">180dp</dimen>
+    <dimen name="padding_button_explorar">10dp</dimen>
+    <dimen name="margin_top_button_explorar">30dp</dimen>
+    <dimen name="text_size_button_explorar">14sp</dimen>
+
+    <!-- Item Video-->
+    <dimen name="tamaño_ancho_item">150dp</dimen>
+    <dimen name="tamaño_alto_item">180dp</dimen>
+    <dimen name="margin_item">10dp</dimen>
+    <dimen name="tamaño_texto_titulo_item">13sp</dimen>
+    <dimen name="tamaño_texto_visualizacion_item">10sp</dimen>
+    <dimen name="padding_texto_item">5dp</dimen>
+
+    <!-- Item Categoria-->
+    <dimen name="tamaño_ancho_itemCategoria">190dp</dimen>
+    <dimen name="tamaño_alto_itemCategoria">190dp</dimen>
+    <dimen name="margin_itemCategoria">10dp</dimen>
+    <dimen name="tamaño_texto_titulo_itemCategoria">17sp</dimen>
+    <dimen name="tamaño_ancho_icono_categoria">50dp</dimen>
+    <dimen name="tamaño_alto_icono_categoria">70dp</dimen>
+
+    <!-- Detalle Categoria -->
+    <dimen name="padding_base_linearLayout_detalleCategoria">15dp</dimen>
+
+    <!-- Detalle Video -->
+    <dimen name="tamaño_alto_detalleVideo">250dp</dimen>
+    <dimen name="margin_titulo_detalleVideo">10dp</dimen>
+    <dimen name="margin_acciones_detalleVideo">20dp</dimen>
+    <dimen name="padding_base_detalleVideo">25dp</dimen>
+    <dimen name="text_size_titulo_detalleVideo">22sp</dimen>
+    <dimen name="text_size_informacion_detalleVideo">15sp</dimen>
+    <dimen name="text_size_descripcion_detalleVideo">19sp</dimen>
+    <dimen name="tamaño_item_imagenView_detalleVideo">50dp</dimen>
+
+    <!-- Spinner Temporada -->
+    <dimen name="tamaño_ancho_spinnerTemporada">200dp</dimen>
+    <dimen name="text_size_spinnerTemporada">20sp</dimen>
+    <dimen name="padding_spinnerTemporada">10dp</dimen>
+
+
+    <!-- Item Temporada-->
+    <dimen name="tamaño_image_view_itemTemporada">200dp</dimen>
+    <dimen name="padding_itemTemporada">5dp</dimen>
+    <dimen name="text_size_capitulo_itemTemporada">19sp</dimen>
+    <dimen name="text_size_titulo_itemTemporada">19sp</dimen>
+    <dimen name="text_size_duracion_itemTemporada">15sp</dimen>
+    <dimen name="padding_reproducir_itemTemporada">10dp</dimen>
+
+
+</resources>
